@@ -10,5 +10,6 @@ outputs:
     description: 'The time we greeted you'
 runs:
   using: 'node20'
+  pre: 'build.js'
   main: 'dist/index.js'
   
